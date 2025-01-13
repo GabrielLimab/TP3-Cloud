@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  REDIS_OUTPUT_KEY: ifs4-proj3-output
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2025-01-13T20:22:08Z"
+  name: outputkey
+  namespace: gabrielbarros
+  resourceVersion: "16348429"
+  uid: cf7b553c-9657-4f10-80d9-270529937fca
