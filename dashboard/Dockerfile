@@ -10,7 +10,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose port
-EXPOSE 52004
+EXPOSE 8501
 
 # Command to run the app
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]

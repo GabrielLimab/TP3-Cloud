@@ -1,5 +1,5 @@
 import streamlit as st
-import dashboard.redis as redis
+import redis
 import json
 import pandas as pd
 
